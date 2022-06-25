@@ -1,0 +1,71 @@
+/* v-header */
+
+
+/* v-books */
+div.sort-buttons-and-search{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 2rem;
+ padding: 7px;
+ height: 60px;
+  width:  83rem;
+  border-radius: 10px;
+}
+.form-inline{
+   align-items: flex-end;
+}
+
+div.sort-buttons{
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+div h4 em{
+    color: #312e2e;
+}
+
+
+/* v-buy_book.php page  */
+
+form.buy-form{
+margin-bottom: 3rem;
+}
+
+div.form-check{
+    margin: 1rem;
+}
+
+
+
+/* v-single-book-page */
+
+div.related{
+display: flex;
+width: 400px;
+margin-bottom: 1rem;
+}
+
+.single-book-row{
+    height: 36rem;
+}
+
+div.related-page-buttons{
+margin-bottom: 2rem;
+justify-items: flex-end; 
+}
+
+.single-book-form{
+margin-top: 10px;
+width:  20rem;
+}
+
+
+/* v-filtered-books */
+
+main.filtered-book-container{
+    margin-bottom: 1rem;
+}
+
+
+
