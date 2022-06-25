@@ -1,2 +1,0 @@
-# SHOP
-Book shop
