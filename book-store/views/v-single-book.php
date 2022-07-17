@@ -53,7 +53,7 @@
     </div>
     <section class="pt-5 pb-5">
         <div class="container">
-            <h2 class="text-center font-weight-bold mb-5 mt-5">Releated product</h2>
+            <h2 class="text-center font-weight-bold mb-5 mt-5">Related product</h2>
             <div class="row d-flex equal">
                 <?php foreach ($books as $book) { ?>
 
