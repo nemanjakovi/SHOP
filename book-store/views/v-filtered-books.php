@@ -9,7 +9,7 @@
                         <h5 class="card-title"><?= $singleBook['title']; ?></h5>
                         <p class="card-text"><?= $singleBook['author']; ?></p>
                         <p class="card-text"><?= $singleBook['category']; ?></p>
-                        <p class="card-text"><?= $singleBook['price']; ?>RSD</p>
+                        <p class="card-text"><?= $singleBook['price']; ?>$</p>
                         <a href="./single-book-page.php?page=<?= $singleBook['id']; ?>" class="btn btn-primary">
                             Show Book
                         </a>
