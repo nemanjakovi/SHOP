@@ -33,7 +33,7 @@
 
                     <div class="d-grid">
                         <a href="sign-up-page.php"><button class="btn btn-google btn-login text-uppercase fw-bold" type="submit">
-                                <i class="fab fa-google me-2"></i> Create acount
+                                <i class="fab fa-google me-2"></i> Create account
                             </button> </a>
                     </div>
 
