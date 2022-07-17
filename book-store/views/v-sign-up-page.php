@@ -19,7 +19,7 @@
 
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="last_name" name="last_name" placeholder="last_name" value="<?php if (isset($_POST["sign_up"])) echo $lastName ?>">
-                            <label for="floatingInput">Eter your last name</label>
+                            <label for="floatingInput">Enter your last name</label>
                             <?php if (!empty($systemErrors['last_name'])) { ?>
                                 <small class="form-text text-danger"><?php echo htmlspecialchars($systemErrors['last_name']); ?></small>
                             <?php } ?>
@@ -34,7 +34,7 @@
                         </div>
                         <div class="form-floating mb-3">
                             <input type="number" class="form-control" id="ages" name="ages" placeholder="ages" value="<?php if (isset($_POST["sign_up"])) echo $ages ?>">
-                            <label for="floatingInput">Eter your ages</label>
+                            <label for="floatingInput">Enter your ages</label>
                             <?php if (!empty($systemErrors['ages'])) { ?>
                                 <small class="form-text text-danger"><?php echo htmlspecialchars($systemErrors['ages']); ?></small>
                             <?php } ?>
