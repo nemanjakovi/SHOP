@@ -17,7 +17,7 @@ if (isset($_POST["sign_up"])) {
     $name = ucfirst($name);
     if (empty($name)) {
         $systemErrors['name'] = "Field name is required!";
-    } else if (!preg_match("/[A-Za-z]+/", $name)) {
+    } else if (!preg_match("/^[a-zA-Z]+$/", $name)) {
 
         $systemErrors['name'] = "Only letters and  allowed!";
     }
@@ -27,7 +27,7 @@ if (isset($_POST["sign_up"])) {
     $lastName = ucfirst($lastName);
     if (empty($lastName)) {
         $systemErrors['last_name'] = "Field name is required!";
-    } else if (!preg_match("/[A-Za-z]+/", $lastName)) {
+    } else if (!preg_match("/^[a-zA-Z]+$/", $lastName)) {
 
         $systemErrors['last_name'] = "Only letters and  allowed!";
     }
